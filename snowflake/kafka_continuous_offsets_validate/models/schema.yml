@@ -17,3 +17,10 @@ models:
         description: "kafka partition"
         data_tests:
           - not_null
+  - name: kafka_offsets_stat
+    description: "Offsets statistics by partitions"
+    columns:
+      - name: kafka_partition
+        description: "kafka partition"
+        data_tests:
+          - not_null
