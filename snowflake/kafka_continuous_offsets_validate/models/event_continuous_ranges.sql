@@ -5,7 +5,7 @@ WITH events AS
  SELECT DISTINCT
         t1.kafka_partition,
         t1.kafka_offset
-   FROM kafka_events t1
+   FROM kafka_messages t1
    LEFT OUTER JOIN kafka_offsets_stat t2
      ON t1.kafka_partition = t2.kafka_partition
   WHERE t2.kafka_partition IS NULL 

@@ -24,7 +24,7 @@ bad_offset_max = max(bad_offset1, bad_offset2)
 print(str(bad_partition) + ' ' + str(bad_offset_min) + ' ' + str(bad_offset_max))
 
 if start_offset == 1:
-    say("partition,offset,session_id,payload,event_ts\n")
+    say("kafka_partition,kafka_offset,session_id,payload,event_ts\n")
 
 for partition in range(num_of_partitions):
     for offset in range(start_offset,start_offset + num_of_messages + 1):

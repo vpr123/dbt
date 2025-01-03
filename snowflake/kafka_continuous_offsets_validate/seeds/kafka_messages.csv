@@ -1,4 +1,4 @@
-partition,offset,session_id,payload,event_ts
+kafka_partition,kafka_offset,session_id,payload,event_ts
 0,1,"19383e70-64e9-4dca-8862-139c606023b7","test","2024-12-29 12:19:43.108053"
 0,2,"4f58fa96-69f0-4a39-b0b1-bd9306028ed8","test","2024-12-29 12:19:43.221048"
 0,3,"23f4ee56-b8ed-4eef-b5d8-25faf54ab5f5","test","2024-12-29 12:19:43.328525"
