@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: event_continuous_ranges
+    description: "Continuous ranges"
+    columns:
+      - name: kafka_partition
+        description: "kafka partition"
+        data_tests:
+          - not_null
+
+  - name: kafka_missing_offsets
+    description: "Missing offsets"
+    columns:
+      - name: kafka_partition
+        description: "kafka partition"
+        data_tests:
+          - not_null
